@@ -1,9 +1,200 @@
-- page 'Welcome to Kebab Project', 'welcome'
-
-.welcome
-  %h1 Kebab Project
-  %h2 Agile toolbox for web developers
-  %p.doc
-    = link_to 'Go to GitHub organization page', 'http://github.com/kebab-project'
-  / .doc
-/ .welcome
+.jumbotron.main
+  .container
+    %img{alt: "deneme", src: "assets/images/logo-1.png"}/
+    .page-header.top1
+      %h1
+        Kebab Project
+        %br/
+        %small
+          Agile toolbox for
+          = succeed "ruby" do
+            %br/
+      .btn-header
+        %a{href: "https://github.com/kebab-project", target: "_blank"}
+          %button.btn.btn-danger.btn-lg{type: "button"}
+            %i.fa.fa-github.fa-lg &nbsp &nbspFollow on Github
+        %a{href: "http://community.kebab-project.org/", target: "_blank"}
+          %button.btn.btn-info.btn-lg{type: "button"}
+            %i.fa.fa-comment-o.fa-lg &nbsp &nbspAsk to Community
+.container
+  .page-header
+    %h1 ToolBox
+  .col-md-4.item-list
+    %img{alt: "...", src: "/assets/images/kebab-i.png"}/
+    .icon-list
+      .col-md-12
+        %p.k-1 Hierapolis
+        %p Lorem ipsum dolor sit amet...
+      .gh-button.icons
+        %a{href: "https://github.com/kebab-project/hierapolis", target: "_blank"}
+          %i.fa.fa-github.fa-lg
+        %a{href: "https://github.com/kebab-project/hierapolis", target: "_blank"}
+          %i.fa.fa-code-fork.fa-lg
+        %a{href: "http://community.kebab-project.org/categories/hierapolis-rails", target: "_blank"}
+          %i.fa.fa-comment.fa-lg
+  .col-md-4.item-list
+    %img{alt: "...", src: "assets/images/kebab-i.png"}/
+    .icon-list
+      .col-md-12
+        %p.k-1 Builder
+        %p Lorem ipsum dolor sit amet...
+      .gh-button.icons
+        %a{href: "https://github.com/kebab-project/hierapolis", target: "_blank"}
+          %i.fa.fa-github.fa-lg
+        %a{href: "https://github.com/kebab-project/hierapolis", target: "_blank"}
+          %i.fa.fa-code-fork.fa-lg
+        %a{href: "http://community.kebab-project.org/categories/hierapolis-rails", target: "_blank"}
+          %i.fa.fa-comment.fa-lg
+  .col-md-4.item-list
+    %img.img-circle{alt: "...", src: "assets/images/kebab-i.png"}/
+    .icon-list
+      .col-md-12
+        %p.k-1 Blankable
+        %p Lorem ipsum dolor sit amet...
+      .gh-button.icons
+        %a{href: "https://github.com/kebab-project/hierapolis", target: "_blank"}
+          %i.fa.fa-github.fa-lg
+        %a{href: "https://github.com/kebab-project/hierapolis", target: "_blank"}
+          %i.fa.fa-code-fork.fa-lg
+        %a{href: "http://community.kebab-project.org/categories/hierapolis-rails", target: "_blank"}
+          %i.fa.fa-comment.fa-lg
+  .col-md-4.item-list
+    %img.img-circle{alt: "...", src: "assets/images/kebab-i.png"}/
+    .icon-list
+      .col-md-12
+        %p.k-1 Hierapolis-Rails
+        %p Lorem ipsum dolor sit amet...
+      .gh-button.icons
+        %a{href: "https://github.com/kebab-project/hierapolis", target: "_blank"}
+          %i.fa.fa-github.fa-lg
+        %a{href: "https://github.com/kebab-project/hierapolis", target: "_blank"}
+          %i.fa.fa-code-fork.fa-lg
+        %a{href: "http://community.kebab-project.org/categories/hierapolis-rails", target: "_blank"}
+          %i.fa.fa-comment.fa-lg
+  .col-md-4.item-list
+    %img.img-circle{alt: "...", src: "assets/images/kebab-i.png"}/
+    .icon-list
+      .col-md-12
+        %p.k-1 l12n
+        %p Lorem ipsum dolor sit amet...
+      .gh-button.icons
+        %a{href: "https://github.com/kebab-project/hierapolis", target: "_blank"}
+          %i.fa.fa-github.fa-lg
+        %a{href: "https://github.com/kebab-project/hierapolis", target: "_blank"}
+          %i.fa.fa-code-fork.fa-lg
+        %a{href: "http://community.kebab-project.org/categories/hierapolis-rails", target: "_blank"}
+          %i.fa.fa-comment.fa-lg
+  .col-md-4.item-list
+    %img.img-circle{alt: "...", src: "assets/images/kebab-i.png"}/
+    .icon-list
+      .col-md-12
+        %p.k-1 Kangal
+        %p Lorem ipsum dolor sit amet...
+      .gh-button.icons
+        %a{href: "https://github.com/kebab-project/hierapolis", target: "_blank"}
+          %i.fa.fa-github.fa-lg
+        %a{href: "https://github.com/kebab-project/hierapolis", target: "_blank"}
+          %i.fa.fa-code-fork.fa-lg
+        %a{href: "http://community.kebab-project.org/categories/hierapolis-rails", target: "_blank"}
+          %i.fa.fa-comment.fa-lg
+  .col-md-4.item-list
+    %img.img-circle{alt: "...", src: "assets/images/kebab-i.png"}/
+    .icon-list
+      .col-md-12
+        %p.k-1 Katip
+        %p Lorem ipsum dolor sit amet...
+      .gh-button.icons
+        %a{href: "https://github.com/kebab-project/hierapolis", target: "_blank"}
+          %i.fa.fa-github.fa-lg
+        %a{href: "https://github.com/kebab-project/hierapolis", target: "_blank"}
+          %i.fa.fa-code-fork.fa-lg
+        %a{href: "http://community.kebab-project.org/categories/hierapolis-rails", target: "_blank"}
+          %i.fa.fa-comment.fa-lg
+  .col-md-4.item-list
+    %img.img-circle{alt: "...", src: "assets/images/kebab-i.png"}/
+    .icon-list
+      .col-md-12
+        %p.k-1 Recipes-matic
+        %p Lorem ipsum dolor sit amet...
+      .gh-button.icons
+        %a{href: "https://github.com/kebab-project/hierapolis", target: "_blank"}
+          %i.fa.fa-github.fa-lg
+        %a{href: "https://github.com/kebab-project/hierapolis", target: "_blank"}
+          %i.fa.fa-code-fork.fa-lg
+        %a{href: "http://community.kebab-project.org/categories/hierapolis-rails", target: "_blank"}
+          %i.fa.fa-comment.fa-lg
+  .col-md-4.item-list
+    %img.img-circle{alt: "...", src: "assets/images/kebab-i.png"}/
+    .icon-list
+      .col-md-12
+        %p.k-1 Cybele
+        %p Lorem ipsum dolor sit amet...
+      .gh-button.icons
+        %a{href: "https://github.com/kebab-project/hierapolis", target: "_blank"}
+          %i.fa.fa-github.fa-lg
+        %a{href: "https://github.com/kebab-project/hierapolis", target: "_blank"}
+          %i.fa.fa-code-fork.fa-lg
+        %a{href: "http://community.kebab-project.org/categories/hierapolis-rails", target: "_blank"}
+          %i.fa.fa-comment.fa-lg
+  .col-md-4.item-list
+    %img.img-circle{alt: "...", src: "assets/images/kebab-i.png"}/
+    .icon-list
+      .col-md-12
+        %p.k-1 Kebab-Remote-Api
+        %p Lorem ipsum dolor sit amet...
+      .gh-button.icons
+        %a{href: "https://github.com/kebab-project/hierapolis", target: "_blank"}
+          %i.fa.fa-github.fa-lg
+        %a{href: "https://github.com/kebab-project/hierapolis", target: "_blank"}
+          %i.fa.fa-code-fork.fa-lg
+        %a{href: "http://community.kebab-project.org/categories/hierapolis-rails", target: "_blank"}
+          %i.fa.fa-comment.fa-lg
+  .col-md-4.item-list
+    %img.img-circle{alt: "...", src: "assets/images/kebab-i.png"}/
+    .icon-list
+      .col-md-12
+        %p.k-1 Model-To-Locale
+        %p Lorem ipsum dolor sit amet...
+      .gh-button.icons
+        %a{href: "https://github.com/kebab-project/hierapolis", target: "_blank"}
+          %i.fa.fa-github.fa-lg
+        %a{href: "https://github.com/kebab-project/hierapolis", target: "_blank"}
+          %i.fa.fa-code-fork.fa-lg
+        %a{href: "http://community.kebab-project.org/categories/hierapolis-rails", target: "_blank"}
+          %i.fa.fa-comment.fa-lg
+  .col-md-4.item-list
+    %img{alt: "...", src: "assets/images/kebab-i.png"}/
+    .icon-list
+      .col-md-12
+        %p.k-1 Spe
+        %p Lorem ipsum dolor sit amet...
+      .gh-button.icons
+        %a{href: "https://github.com/kebab-project/hierapolis", target: "_blank"}
+          %i.fa.fa-github.fa-lg
+        %a{href: "https://github.com/kebab-project/hierapolis", target: "_blank"}
+          %i.fa.fa-code-fork.fa-lg
+        %a{href: "http://community.kebab-project.org/categories/hierapolis-rails", target: "_blank"}
+          %i.fa.fa-comment.fa-lg
+  .col-md-4.item-list
+    %img{alt: "...", src: "assets/images/kebab-i.png"}/
+    .icon-list
+      .col-md-12
+        %p.k-1 Kebapress
+        %p Lorem ipsum dolor sit amet...
+      .gh-button.icons
+        %a{href: "https://github.com/kebab-project/hierapolis", target: "_blank"}
+          %i.fa.fa-github.fa-lg
+        %a{href: "https://github.com/kebab-project/hierapolis", target: "_blank"}
+          %i.fa.fa-code-fork.fa-lg
+        %a{href: "http://community.kebab-project.org/categories/hierapolis-rails", target: "_blank"}
+          %i.fa.fa-comment.fa-lg
+  .col-md-4.item-list
+    %img{alt: "...", src: "assets/images/soon.png"}/
+    .icon-list
+      .col-md-12
+        %p Cooming soon...
+      .gh-button.icons
+.foot.col-md-12
+  .container
+  .container.copy-r.main-1
+    %p @2009 - 2014 Copyright Lab2023, inc

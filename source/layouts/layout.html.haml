@@ -10,9 +10,7 @@
                           '//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css'
     = yield_content :head
   %body.main{class: @page || 'page'}
-
-    .container
-      = yield
+  = yield
 
   / Javascripts
   = javascript_include_tag '//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js',
