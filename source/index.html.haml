@@ -1,9 +1,100 @@
 - page 'Welcome to Kebab Project', 'welcome'
 
-.welcome
-  %h1 Kebab Project
-  %h2 Agile toolbox for web developers
-  %p.doc
-    = link_to 'Go to GitHub organization page', 'http://github.com/kebab-project'
-  / .doc
-/ .welcome
+.row
+  .col-md-5.col-md-offset-1
+    #logo
+      %h1 Kebab Project
+      %h2 Agile toolbox for web developers
+      %p.buttons
+        = link_to 'http://github.com/kebab-project', target: :blank, class: 'btn btn-default' do
+          %i.fa.fa-github
+          Follow on GitHub
+        = link_to 'http://community.kebab-project.org/', target: :blank, class: 'btn btn-default' do
+          %i.fa.fa-comment
+          Ask a community
+      %p.copyright
+        2009 - 2014 &copy; Copyright
+        =link_to 'lab2023 inc.', 'http://www.lab2023.com', target: :blank
+
+  .col-md-5
+    #toolbox
+      %ul.tools
+        %li
+          =link_to 'https://github.com/kebab-project/cybele', target: :blank do
+            .icon
+              %i.fa.fa-archive
+            %h4 Cybele
+            %p
+              Rails 4 template
+        %li
+          =link_to 'https://github.com/kebab-project/hierapolis', target: :blank do
+            .icon
+              %i.fa.fa-archive
+            %h4 Hierapolis
+            %p Bootstrap 3 based flat style admin theme
+        %li
+          =link_to 'https://github.com/kebab-project/hierapolis-rails', target: :blank do
+            .icon
+              %i.fa.fa-archive
+            %h4 Hierapolis Rails
+            %p Gem for Hierapolis Rails Admin Theme
+        %li
+          =link_to 'https://github.com/kebab-project/recipes_matic', target: :blank do
+            .icon
+              %i.fa.fa-archive
+            %h4 Recipes Matic
+            %p Copy beautiful Capistrano recipes into project
+        %li
+          =link_to 'https://github.com/kebab-project/model_to_locale', target: :blank do
+            .icon
+              %i.fa.fa-archive
+            %h4 Model to Locale
+            %p This gem creates locale file from model attributes.
+        %li
+          =link_to 'https://github.com/kebab-project/kangal', target: :blank do
+            .icon
+              %i.fa.fa-archive
+            %h4 Kangal
+            %p Extended validation gem for email, subdomain, cc, etc.
+        %li
+          =link_to 'https://github.com/kebab-project/katip', target: :blank do
+            .icon
+              %i.fa.fa-archive
+            %h4 Katip
+            %p This is a change logging gem for a git initialized project
+        %li
+          =link_to 'https://github.com/kebab-project/l12n', target: :blank do
+            .icon
+              %i.fa.fa-archive
+            %h4 L12n
+            %p l12n gem creates locations data for you.
+        %li
+          =link_to 'https://github.com/kebab-project/blankable', target: :blank do
+            .icon
+              %i.fa.fa-archive
+            %h4 Blankable
+            %p Adds blank slates to index view
+        %li
+          =link_to 'https://github.com/kebab-project/builder', target: :blank do
+            .icon
+              %i.fa.fa-archive
+            %h4 Builder
+            %p Bash scripts for development & production environments
+        %li
+          =link_to 'https://github.com/kebab-project/spe', target: :blank do
+            .icon
+              %i.fa.fa-archive
+            %h4 S.P.E
+            %p Simple Static Pages Manager
+        %li
+          =link_to 'https://github.com/kebab-project/kebab-remote-api', target: :blank do
+            .icon
+              %i.fa.fa-archive
+            %h4 Kebab Remote API
+            %p This is a that sends spesific server data through JSON
+        %li
+          =link_to 'https://github.com/kebab-project/kebapress', target: :blank do
+            .icon
+              %i.fa.fa-archive
+            %h4 Kebapress
+            %p Rails Blog Engine

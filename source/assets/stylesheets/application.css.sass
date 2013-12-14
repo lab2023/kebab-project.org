@@ -1,49 +1,92 @@
 @charset "utf-8"
 @import "compass"
+@import "_variables"
 @import "bootstrap"
 
 body
   background-color: white
+
+p.buttons
+  margin-top: 20px
+
+#logo
+  position: fixed
   text-align: center
-  font-family: sans-serif
-
-h1
-  color: rgba(0, 0, 0, 0.8)
-  font:
-    weight: bold
-    size: 40px
-  letter-spacing: -1px
-  text:
-    transform: uppercase
-    shadow: 0 1px 0 rgba(255, 255, 255, 0.5)
-  background: url("../images/logo.jpg") no-repeat center
-  padding: 450px 0 10px
-  margin: 0
-
-h2
-  color: rgba(0, 0, 0, 0.5)
-  font-size: 25px
-  margin-top: 0
-
-.doc
-  font-size: 14px
-  margin: 0
-  &:before, &:after
-    opacity: .2
-    padding: 6px
-    font-style: normal
-    position: relative
-    content: "•"
-  a
-    color: rgba(0, 0, 0, 0.3)
-    &:hover
-      color: #666
-
-.welcome
-  -webkit-animation-name: welcome
+  -webkit-animation-name: zoom
   -webkit-animation-duration: .9s
+  h1
+    color: rgba(0, 0, 0, 0.8)
+    font:
+      weight: bold
+      size: 40px
+    letter-spacing: -1px
+    text:
+      transform: uppercase
+      shadow: 0 1px 0 rgba(255, 255, 255, 0.5)
+    background: url("../images/logo.jpg") no-repeat center
+    padding: 450px 0 10px
+    margin: 0
 
-@-webkit-keyframes welcome
+  h2
+    color: $asbestos
+    font-size: 25px
+    margin-top: 0
+
+#toolbox
+  padding-top: 75px
+  text-align: center
+  ul.tools
+    margin: 0
+    padding: 0
+    li
+      margin: 0
+      cursor: pointer
+      list-style: none
+      text-align: left
+      margin: 15px
+      border-bottom: 1px $clouds dashed
+      padding-bottom: 15px
+      &:last-child
+        border: none
+      a
+        color: rgba(0, 0, 0, 0.8)
+        text-decoration: none
+        &:hover
+          color: rgba(0, 0, 0, 0.6)
+      div.icon
+        float: left
+        margin-right: 10px
+        margin-bottom: 5px
+        display: block
+        background-color: $pomegranate
+        border-radius: 25px
+        border: 5px solid $carrot
+        height: 45px
+        width: 45px
+        margin-top: -3px
+        i.fa
+          font:
+            size: 1.5em
+
+          margin:
+            top: 7px
+            left: 7px
+          color: white
+      h4
+        margin: 0
+      p
+        margin: 0
+      &:hover
+        div.icon
+          background-color: $carrot
+          border-color: $pomegranate
+
+.copyright
+  margin-top: 10px
+  color: $silver
+  font-size: 1em
+
+@-webkit-keyframes zoom
   from
     -webkit-transform: scale(0)
     opacity: 0
