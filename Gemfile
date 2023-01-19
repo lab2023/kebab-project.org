@@ -17,4 +17,4 @@ gem 'wdm', '~> 0.1.0', :platforms => [:mswin, :mingw]
 gem 'compass', '~> 0.12.2'
 
 # Bootstrap sass
-gem 'bootstrap-sass', '~> 3.0.2.1'
+gem 'bootstrap-sass', '~> 3.4.1'
